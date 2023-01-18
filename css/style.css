@@ -1,0 +1,159 @@
+/*reset de espacios definidos*/
+.sil {
+    padding: 0%;
+    margin: 0%;
+    }
+
+/*formato para header*/
+
+header nav{
+    position: fixed;
+    top: 0;
+    background-color: rgb(135, 204, 135);
+    font-family: 'Quicksand';
+    font-weight: 600;
+    font-size: 20px;
+    width: 100%;
+}
+
+header nav img{
+    margin: 10px;
+    border-radius: 50%;
+}
+
+header nav ul li{
+    display: inline-block;
+    text-align: center;
+    margin-left: 40px;
+}
+
+/*formato para footer*/
+
+footer{
+    background-color: rgb(135, 204, 135);
+    }
+
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li{
+    display: inline;
+    font-size: 50px;
+    margin-left: 50px;
+    align-items: center;
+}
+
+footer p{
+    font-size: 30px;
+    text-align: center;
+}
+
+.arrow_top{
+    position: fixed;
+    right: 20px;
+    bottom: 100px;
+    font-size: 30px;
+    background-color: rgb(70, 202, 77);
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    border-radius: 50%;
+}
+
+/*formato para cuerpo general*/
+
+h1{
+    margin-top: 200px;
+    text-align: center;
+    font-family: 'Rokkitt';
+    padding: 50px;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+p{
+    font-family: 'Quicksand'; 
+    font-weight: 500; 
+    margin: 10px;
+    font-size: 20px;
+}
+
+ul li{
+    font-family: 'Quicksand';
+    font-weight: 500;
+}
+
+h2{
+    font-family: 'Quicksand';
+    font-weight: 600;
+    padding: 10px;
+    margin: 10px;
+    font-size: 30px;
+}
+
+/*para index*/
+main p{
+    text-align: center;
+}
+
+.section_index h2{
+    text-align: center;
+}
+
+.section_index div img{
+    height: 300px;
+    width: 300px;
+}
+
+section img{
+    border-radius: 5%;
+}
+
+nav img{
+    border-radius: 20px;
+}
+
+nav ul li{
+    padding: 5px;
+}
+
+.redes{
+    font-size: 20px;
+    margin-left: 25px;
+    list-style: none;
+}
+
+.productos li{
+    list-style-type: circle;
+    margin-left: 50px;
+}
+
+.carousel-item p{
+    text-align: center;
+}
+
+button{
+    margin-bottom: 100px;
+    margin-left: 40px;
+}
+
+.cont {
+    height: 50px;
+}
+
+.bot1:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+
+.formulario{
+    margin-left: 3%;
+}
+
+.vid{
+    display: flex;
+    justify-content: center;
+}
