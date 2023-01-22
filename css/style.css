@@ -31,7 +31,8 @@ header nav ul li{
 
 footer{
     background-color: rgb(135, 204, 135);
-    width: 100%;    
+    width: 100%;
+    height: 20%;   
 }
 
 footer ul{
